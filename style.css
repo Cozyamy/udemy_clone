@@ -727,8 +727,12 @@ footer div {
 	height: auto;
 }
 
+.footerNoDisplay {
+	display: none;
+}
 
-@media only screen and (max-width: 1100px) {
+
+@media only screen and (max-width: 1115px) {
 	.teach {
 		display: none;
 	}
@@ -772,7 +776,7 @@ footer div {
 
 }
 
-@media only screen and (max-width: 945px) {
+@media only screen and (max-width: 1015px) {
 	.navBusiness {
 		display: none;
 	}
@@ -885,7 +889,7 @@ footer div {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 830px) {
 
 
 	.udemy_logo {
@@ -1105,4 +1109,154 @@ footer div {
 {
   transform: none;
 }
+}
+
+@media only screen and (max-width: 779px) {
+	.searchIcon {
+		display: none;
+	}
+
+	.cart {
+		display: none !important;
+	}
+
+	.hero-container {
+		width: 350px;
+		margin: 80px;
+		margin-left: 30px;
+	}
+
+	.CourseSelection-section ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.CourseSelection-section li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid #6A6F73;
+		padding-left: 5px;
+	}
+
+	.coursesDiv {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.goals_section article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.students_view h3 {
+		text-align: center;
+	}
+
+	.FeaturedCategories h3 {
+		text-align: center;
+	}
+
+	.FeaturedCategories section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.FeaturedCategories button {
+		align-self: center;
+		margin-top: 30px;
+	}
+
+	.testimonies article {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.testimonies div {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.UdemyBusiness {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.UdemyBusiness div {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.UdemyBusiness button {
+		width: 100%;
+	}
+
+	.UdemyBusiness img {
+		width: 370px;
+		height: 370px;
+	}
+
+	.BecomeInstructor {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.BecomeInstructor img {
+		width: 370px;
+		height: 370px;
+	}
+
+	.LeadingCompanies img {
+		float: none;
+		margin-right: 10px;
+	}
+
+	.footerDisplay {
+		display: none;
+	}
+
+	.footerNoDisplay {
+		display: block;
+		padding: 50px 30px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.footerNoDisplay div {
+		border: 0.6px solid #FFFFFF;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 45px;
+		padding-left: 35px;
+		background-image: url("./images/globe-snip1.PNG");
+		background-repeat: no-repeat;
+		background-position: 5% 40%;
+		width: 40%;
+	}
+
+	.footerNoDisplay div:hover {
+		background-color: #2C2D2D;
+		cursor: pointer;
+		background-image: url("./images/globe-snip2.PNG");
+		background-repeat: no-repeat;
+		background-position: 5% 40%;
+	}
+
+	.footerNoDisplay img {
+		width: 90px;
+		height: auto;
+		margin-top: 70px;
+		cursor: pointer;
+	}
 }
