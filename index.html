@@ -11,19 +11,116 @@
 	<header>
 		<nav>
 			<ul class="header_nav">
+				<div role="navigation">
+					<div id="menuToggle">
+						<input type="checkbox" />
+						<span></span>
+						<span></span>
+						<span></span>
+						<ul id="menu">
+							<li><a style="color: #5624D0;" href="#">Log in</a></li>
+							<li><a style="color: #5624D0;" href="#">Sign up</a></li>
+							<hr>
+							<h6><li>Most popular</li></h6>
+							
+							<li>
+								<a href="#">Web Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Mobile Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Game Development</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Entrepreneurship</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Business Analytics & Intelligence</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Digital Marketing</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Graphic Design & Illustration</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">IT Certifications</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">Personal Transformation</a>
+								<a href="#">&#62;</a>
+							</li>
+							<li>
+								<a href="#">All categories</a>
+								<a href="#">&#62;</a>
+							</li>
+							<hr>
+							<h6><li>Most popular</li></h6>
+							<a href="#"><li>Udemy Business</li></a>
+							<a href="#"><li>Get the app</li></a>
+							<a href="#"><li>Invite friends</li></a>
+							<a href="#"><li>Help</li></a>
+							<a href="#" class="globeDiv">
+								<img src="./images/globe2.svg">
+								<li>English</li>
+							</a>
+						</ul>
+					</div>
+				</div>
 				<li><a href="#"><img class="udemy_logo" src="./images/logo-udemy.svg"></a></li>
-				<li><a href="#">Categories</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="#">Categories</a>
+					<div class="dropdown-content">
+						<a href="#">Development&nbsp;&nbsp;&#62;</a>
+						<a href="#">Business&nbsp;&nbsp;&#62;</a>
+						<a href="#">Finance & Accounting&nbsp;&nbsp;&#62;</a>
+						<a href="#">IT & Software&nbsp;&nbsp;&#62;</a>
+						<a href="#">Office Productivity&nbsp;&nbsp;&#62;</a>
+						<a href="#">Personal Development&nbsp;&nbsp;&#62;</a>
+						<a href="#">Design&nbsp;&nbsp;&#62;</a>
+						<a href="#">Marketing&nbsp;&nbsp;&#62;</a>
+						<a href="#">Lifestyle&nbsp;&nbsp;&#62;</a>
+						<a href="#">Photography & Video&nbsp;&nbsp;&#62;</a>
+						<a href="#">Health & Fitness&nbsp;&nbsp;&#62;</a>
+						<a href="#">Music&nbsp;&nbsp;&#62;</a>
+						<a href="#">Teaching & Academics&nbsp;&nbsp;&#62;</a>
+					</div>
+				</li>
 				<li>
 					<input type="text" name="search" placeholder="&#xF002;       Search for anything" style="font-family:inter, FontAwesome; font-size: 15px;">
 				</li>
-				<li><a href="#">Udemy Business</a></li>
-				<li><a href="#">Teach on Udemy</a></li>
-				<li><img src="./images/cart-snip.PNG"></li>
+				<li class="dropdown">
+					<a class="dropbtn navBusiness" href="#">Udemy Business</a>
+					<div class="dropdown-content business">
+						<p>Get your team access to over 19,000 top Udemy courses, anytime, anywhere.</p>
+						<button>Try Udemy Business</button>
+					</div>
+				</li>
+				<li class="dropdown teach">
+					<a href="#" class="dropbtn">Teach on Udemy</a>
+					<div class="dropdown-content business">
+						<p>Turn what you know into an opportunity and reach millions around the world.</p>
+						<button>Learn more</button>
+					</div>
+				</li>
+				<li><i class="fa fa-search searchIcon"></i></li>
+				<li>
+					<div class="cart"></div>
+				</li>
 				<li>
 					<div>
 						<button class="login_button">Log in</button>
 						<button class="signup_button">Sign up</button>
-						<img class="globe" src="./images/globe-snip.PNG">
+						<p class="globe"></p>
 
 					</div>
 				</li>
@@ -34,8 +131,8 @@
 		<section class="hero-section">
 			<div>
 			<div class="hero-container">
-				<h1>Keep moving up</h1>
-				<p>Learn the skills you need to take the next step — and every step after. Log in now to save on courses. Sale ends today.</p>
+				<h1>24-Hour Flash Sale</h1>
+				<p>Log in to see your deals. Courses on sale for one day only.</p>
 			</div>
 		</div>
 		</section>
@@ -128,48 +225,44 @@
 						<p>Will A</p>
 					</div>
 					<hr>
-					<div>
-						<img src="./images/play_icon.png">
-						<p style="color: #5624D0; font-weight: 650; cursor: pointer;">[NEW] Ultimate AWS Certifies Cloud Practitioner -2022</p>
+					<div class="playDiv">
+						<p>[NEW] Ultimate AWS Certifies Cloud Practitioner -2022</p>
 					</div>
 				</div>
 				<div class="goals_div">
 					<img class="quote" src="./images/quote.svg">
 					<p>This course helped me <span>freshen up on my product manager skills and land a job at Facebook!</span> Thanks guys :)</p>
 					<div style="margin-top: 75px;">
-						<img src="./images/learner_name.PNG">
+						<img src="./images/learner_name1.PNG">
 						<p>Ron F</p>
 					</div>
 					<hr>
-					<div>
-						<img src="./images/play_icon.png">
-						<p style="color: #5624D0; font-weight: 650; cursor: pointer;">Become a Product Manager | Learn the Skills & Get the Job</p>
+					<div class="playDiv">
+						<p>Become a Product Manager | Learn the Skills & Get the Job</p>
 					</div>
 				</div>
-				<div class="goals_div">
+				<div class="goals_div hide">
 					<img class="quote" src="./images/quote.svg">
 					<p>One of the best courses on management and leadership I have come across so far. The advice is practical, and examples highly relatable. <span>Would help anyone become a better manager.</span></p>
 					<div>
-						<img src="./images/learner_name.PNG">
+						<img src="./images/learner_name2.PNG">
 						<p>Philip W</p>
 					</div>
 					<hr>
-					<div>
-						<img src="./images/play_icon.png">
-						<p style="color: #5624D0; font-weight: 650; cursor: pointer;">Leadership: Practical Leadership Skills</p>
+					<div class="playDiv">
+						<p>Leadership: Practical Leadership Skills</p>
 					</div>
 				</div>
-				<div class="goals_div">
+				<div class="goals_div DisplayNone">
 					<img class="quote" src="./images/quote.svg">
 					<p>I highly <span>recommend this course for all budding data scientists.</span> Even people with no prior knowledge of any visualization tools can become a master after completing this course.</p>
-					<div>
-						<img src="./images/learner_name.PNG">
+					<div style="margin-top: 25px;">
+						<img src="./images/learner_name3.PNG">
 						<p>Surya M</p>
 					</div>
 					<hr>
-					<div>
-						<img src="./images/play_icon.png">
-						<p style="color: #5624D0; font-weight: 650; cursor: pointer;">Tableau 2022 A-Z: Hands-On Tableau Training for Data Science</p>
+					<div class="playDiv">
+						<p>Tableau 2022 A-Z: Hands-On Tableau Training for Data Science</p>
 					</div>
 				</div>
 			</article>
@@ -225,7 +318,7 @@
 					<p style="font-size: 16px; font-weight: 600; margin-top: 1px">&#8358;5,500  <span style="color: #A09B9B; font-weight: 400">&#8358;29,900</span></p>
 					<div class="bestseller">Bestseller</div>
 				</div>
-				<div class="StudentsView_courses">
+				<div class="StudentsView_courses DisplayNone">
 					<img src="./images/students4.png">
 					<h4>The Complete JavaScript Course 2023: From Zero to Expert!</h4>
 					<p style="font-size: 12px; color: #7D7B7B;">Jonas Schmedtamann</p>
